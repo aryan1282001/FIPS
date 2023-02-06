@@ -1,6 +1,9 @@
 import React from "react";
+import StoreGallery from "./StoreGallery";
+
 
 const Shopping = () => {
+  
   return (
     <div className="shoppingbag-body">
       <div className="Shoppingbag">

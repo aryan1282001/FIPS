@@ -7,7 +7,7 @@ import Form from '../components/Form'
 import Footerimg from '../components/Footerimg'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import Slider from '../components/Slider'
+
 
 
 
@@ -21,7 +21,7 @@ function Home() {
       <Photos />
       
       <Body />
-      <Slider />
+      
       <Instagram />
       <Form />
       <Footerimg /> 

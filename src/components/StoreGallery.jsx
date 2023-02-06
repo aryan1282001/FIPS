@@ -1,13 +1,21 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 
 const StoreGallery = (props) => {
+
+  const [buyid , setBuyid]= useState()
+
+  const buyClick = (e) => {
+    e.preventDefault()
+    setBuyid(props.id)
+    console.log(buyid)
+  }
   return (
     <div className='storecard '>
       <div className="storeimg">
         <img src={props.image} alt="" />
         <div className="buy-now">
-          <button>Buy now</button>
+          <button onClick={buyClick}>Buy now</button>
         </div>
         
       </div>

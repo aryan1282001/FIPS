@@ -14,7 +14,8 @@ const Store = () => {
       <StoreGallery 
       image='https://d2j6dbq0eux0bg.cloudfront.net/images/40728386/1796029425.jpg'
       title='white chair'
-      desc='19.95'/>
+      desc='19.95'
+      id = '1'/>
 
 <StoreGallery 
        image='https://d2j6dbq0eux0bg.cloudfront.net/images/40728386/1796062458.jpg'
